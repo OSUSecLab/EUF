@@ -4,9 +4,14 @@ This repo contains numerous scripts to generate simulated user interactions and 
 
 # Environment
 
-A requirements.txt file is included for virtual environment setup of Python dependencies, using Python 3.10.12 running on Ubunutu 22.04.1. Note, all CLI commands and output assume this root as the current working directory. 
+A requirements.txt file is included for virtual environment setup of Python dependencies, using Python 3.10.12 running on Ubuntu 22.04.1. Note, all CLI commands and output assume this root as the current working directory. 
 
-Creating and initializing an evnironment is typically:
+First, ensure you have the virtualenv package installed using:
+```
+sudo apt install python3-venv
+```
+
+Then, creating and initializing a Python virtual environment is typically:
 
 ```
 virtualenv ./.venv
